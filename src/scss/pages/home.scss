@@ -1,0 +1,37 @@
+.p-home {
+    display: grid;
+    grid-template-columns: 300px 1fr 250px;
+    grid-template-rows: 40px 1fr;
+    grid-template-areas:
+        "header header header"
+        "left center right";
+    height: 100%;
+
+    & .__section-header {
+        border: 2px solid $color-third;
+        grid-area: header;
+        background: $color-white;
+        box-shadow: $box-shadow;
+    }
+
+    & .__section-right {
+        border: 2px solid $color-third;
+        grid-area: right;
+        background: $color-white;
+        box-shadow: $box-shadow;
+    }
+
+    & .__section-center {
+        border: 2px solid $color-third;
+        grid-area: center;
+        background: $color-third;
+        box-shadow: $box-shadow;
+    }
+
+    & .__section-left {
+        border: 2px solid $color-third;
+        grid-area: left;
+        background: $color-white;
+        box-shadow: $box-shadow;
+    }
+}

@@ -1,0 +1,35 @@
+$color-first:#206439;
+$color-second: #443183;
+$color-third:#1554ec;
+$color-fourth:#871b44;
+
+$color-black: #211e18;
+$color-white: #ebf2f7;
+
+$font-size-xs:8px;
+$font-size-sm:10px;
+$font-size-md:16px;
+$font-size-lg:20px;
+$font-size-xl:26px;
+$font-size-xxl:32px;
+$font-size-xxxl:40px;
+
+$box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.0);
+$border: 3px solid $color-third;
+
+$space-xxxs: 2px;
+$space-xxs: 4px;
+$space-xs: 8px;
+$space-sm: 16px;
+$space-md: 32px;
+$space-lg: 64px;
+$space-xl: 128px;
+$space-xxl: 256px;
+$space-xxxl: 512px;
+
+@mixin f-border{
+    border-image-source: linear-gradient(45deg, $color-third, $color-fourth);
+    border-image-slice: 1;
+    border-style: solid;
+    border-width: 3px;
+}

@@ -1,46 +1,28 @@
-# Getting Started with Create React App
+# Game Engine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Stretch
+- particle system 
+- lighting 
+- mobile 
+- modify sprite/texture colors 
+- modify opacity 
+- rotate images
+- timers
+- fps 
+  
+# Game Engine GUI
+- manage nodes
+    - create game with no code tool
+- node properties
+- assets 
+- grid to place nodes 
+- button to play game  
 
-## Available Scripts
+# Game Ideas 
+- a game where you feed ducks food they would actually eat, when you feed them they multiply, you get point from feeding them, use points to unlock different foods, which leads to different types of ducks. new food creates a new type of duck. (like a clicker game, lots of stuff on the screen)
 
-In the project directory, you can run:
+- the only person in a place, you have to befriend all the animals, you have to do different tasks to create new friends unlocks. when you make a new friend you unlock the potential to make a friend with a new animal, better, more rare animals later in the game.
 
-### `npm start`
+- clean up a tidepool and save the microdiversity, snales, guppy, squid, tidepool to beach front to shallows to deep ocean. make the trash infomitive and educational.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- grow the food, and eat the food. start with basic food from farms, unlock better foods with money from customers. Should be based on food mainly. Multiple resturaunts, food critics, star based, more food = more popular. calming game, combine ingredients to make new foods. unlock new recipes and new foods. 

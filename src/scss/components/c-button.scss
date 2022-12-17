@@ -1,0 +1,24 @@
+.c-button {
+    appearance: none;
+    all: unset;
+    align-items: center;
+    background: $color-third;
+    border: 2px solid $color-white;
+    color: $color-white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: $space-xxs;
+    margin: $space-xs;
+    transition: all 0.05s ease;
+
+    &:hover {
+        background: $color-white;
+        color: $color-third;
+        transform: scale(1.1);
+    }
+
+    &:active {
+        transform: scale(0.9);
+    }
+}
